@@ -1,0 +1,95 @@
+*{box-sizing: border-box; margin: 0; padding: 0;} 
+body{
+    background-color: rgb(227, 230, 233);
+}
+.container{
+    
+    background-color: white;
+    width: 800px;
+    min-height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,0);
+    border-radius: 10px;
+    
+}
+button{
+    cursor: pointer;
+}
+.başlık{
+    margin: 20px;
+    text-align: center;
+}
+.save{
+    background-color: rgb(81, 81, 233);
+    color: white;
+}
+.getTask{
+    background-color: rgb(206, 98, 20);
+    
+}
+.addblock{
+    text-align: center;
+    margin: 0px 20px 20px;
+    
+}
+
+.addblock .btn{
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgb(29, 13, 13);
+    margin-right: 10px;
+    outline: none;
+}
+.addblock .taskinput{
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+thead{
+    border: 2px solid wheat;
+    font-weight: bold;
+
+}
+table{
+    width: 90%;
+    height: auto;
+    margin: 20px 20px 0px 40px;
+    font-size: large;
+}
+
+.dlt{
+    background-color: rgb(223, 35, 35);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius:7px ;
+}
+.dlt:hover{
+    background-color: rgb(163, 24, 24);
+}
+.fns{
+
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(41, 206, 30);
+    color: white;
+    padding: 10px;
+}
+.fns:hover{
+    background-color: green;
+}
+
+/* thead td{
+    border-bottom: 4px solid black;
+}
+td{
+    height: 50px;
+    margin-top: 100px;
+    border-bottom: 3px solid #ddd;
+} */
+td:first-child{
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" >
+        <div class="başlık">
+            <h1>To Do App</h1>
+        </div>
+        
+        <div class="addblock">
+            <input type="text" placeholder="enter the task" id="1" class="taskinput" autocomplete="off">
+            <button class="btn save" for="1" type="submit" onclick="ekleme()">Save</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <td>No.</td>
+                    <td>Todo item</td>
+                    <td>Status</td>
+                    <td>Actions</td>
+                </thead>
+                <tbody>
+                     <tr>
+                        <td>1</td>
+                        <td>Buy groceries for next week</td>
+                        <td>in progress</td>
+                        <td>
+                            <button type="button" class="dlt">Delete</button>
+                            <button type="button" class="fns">Finished</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Renew car insurance</td>
+                        <td>in progress</td>
+                        <td>
+                            <button type="button" class="dlt">Delete</button>
+                            <button type="button" class="fns">Finished</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sign up for online course</td>
+                        <td>in progress</td>
+                        <td>
+                            <button type="button" class="dlt">Delete</button>
+                            <button type="button" class="fns">Finished</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
